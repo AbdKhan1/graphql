@@ -20,7 +20,7 @@ let goProjectNames = [
 let jsProjectNames = [
     "make-your-game", "make-your-game-score-handling", "make-your-game-history", "make-your-game-different-maps",
     "real-time-forum", "real-time-forum-typing-in-progress",
-    "graphQL",
+    "graphql",
     "social-network", "social-network-cross-platform-appimage",
     "mini-framework", "mini-framework-bomberman-dom"
 ]
