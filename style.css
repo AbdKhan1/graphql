@@ -24,6 +24,10 @@ header{
 .profile-text{
     display:flex;
     justify-content:left;
+    align-items: center;
+}
+.profile-text>p{
+    margin-left:5px;
 }
 
 .grades{

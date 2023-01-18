@@ -22,7 +22,7 @@ export class queryData {
         colorContainer.classList.add('svg-pie-chart-color')
 
         const pieChart = document.createElementNS(nsURI, 'svg')
-        pieChart.setAttributeNS(null, "viewBox", "-8 15 20 20")
+        pieChart.setAttributeNS(null, "viewBox", "-8.5 15 20 20")
         pieChartContainer.appendChild(pieChart)
 
 
@@ -164,7 +164,7 @@ export class queryData {
         var lastProjDetails = `<h3>Last activity:</h3>` + `<p>` + `${this.dataArray[0]["projectName"]}` + `</p>`
         name.innerHTML = `<h3>Username:</h3>` + `<p>gymlad</p>`
         id.innerHTML = `<h3>Id:</h3>` + `<p>559</p>`
-        level.innerHTML = `<h3>Current level:</h3>` + `${this.dataArray[(this.dataArray.length) - 1]["amount"]}`
+        level.innerHTML = `<h3>Current level:</h3>` + `<p>` +`${this.dataArray[(this.dataArray.length) - 1]["amount"]}`+`</p>`
         lastProj.innerHTML = lastProjDetails
         section.append(name, id, lastProj, level)
     }
